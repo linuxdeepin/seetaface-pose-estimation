@@ -3,7 +3,7 @@ set(_TARGET_NAME "SeetaPoseEstimation")
 set(_TARGET_VERSION_MAJOR "6")
 set(_TARGET_VERSION_MINOR "0")
 set(_TARGET_VERSION_SINOR "0")
-set(_TARGET_HEADER "seeta/FaceDetector.h")
+set(_TARGET_HEADER "seeta/PoseEstimator.h")
 # =============== Edit end ===================== #
 
 # Find library
