@@ -112,7 +112,7 @@ set(_TARGET_NAME "${SeetaPoseEstimation_NAME}")
 set(_TARGET_VERSION_MAJOR "${SeetaPoseEstimation_VERSION_MAJOR}")
 set(_TARGET_VERSION_MINOR "${SeetaPoseEstimation_VERSION_MINOR}")
 set(_TARGET_VERSION_SINOR "${SeetaPoseEstimation_VERSION_SINOR}")
-set(_TARGET_HEADER "seeta/FaceDetector.h")
+set(_TARGET_HEADER "seeta/PoseEstimator.h")
 configure_file(${SOLUTION_DIR}/cmake/FindLibrary.cmake.in ${SOLUTION_DIR}/cmake/Find${SeetaPoseEstimation_NAME}.cmake @ONLY)
 
 file(GLOB_RECURSE FIND_CMAKE_FILES
