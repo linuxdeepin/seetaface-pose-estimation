@@ -18,7 +18,7 @@ set(CONFIGURATION ${CMAKE_BUILD_TYPE})
 set(TARGET "SHARED" CACHE STRING "SHARED or STATIC" FORCE)
 # option for SeetaAuthorize
 option(SEETA_AUTHORIZE "Using seeta authorize" OFF)
-option(SEETA_MODEL_ENCRYPT "Using model encrypt" OFF)
+option(SEETA_MODEL_ENCRYPT "Using model encrypt" ON)
 # option for build android
 option(BUILD_ANDROID "Buid android" OFF)
 message(STATUS "Build android: " ${BUILD_ANDROID})
