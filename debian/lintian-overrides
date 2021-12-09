@@ -1,0 +1,2 @@
+seetaface-pose-estimation: package-must-activate-ldconfig-trigger usr/lib/libSeetaPoseEstimation600.so
+seetaface-pose-estimation: shlib-without-PT_GNU_STACK-section usr/lib/libSeetaPoseEstimation600.so
