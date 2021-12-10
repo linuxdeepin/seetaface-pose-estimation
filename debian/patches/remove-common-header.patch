@@ -1,0 +1,11 @@
+--- a/PoseEstimation/CMakeLists.txt
++++ b/PoseEstimation/CMakeLists.txt
+@@ -129,7 +129,7 @@
+ )
+ 
+ message("destination:" ${CMAKE_INSTALL_PREFIX})
+-install(FILES ${COMMON_INCLUDE_FILES} DESTINATION ${ENV_INCLUDE_DIR}/seeta/Common)
++#install(FILES ${COMMON_INCLUDE_FILES} DESTINATION ${ENV_INCLUDE_DIR}/seeta/Common)
+ install(FILES ${INCLUDE_FILES} DESTINATION ${ENV_INCLUDE_DIR}/seeta)
+ 
+ 
